@@ -1,5 +1,3 @@
-// First import should be dotenv so that you can use environment variables through-out, specifically disabling host check
-
 import dotenv from 'dotenv';
 import express from 'express';
 import {db,connectToDb} from './mongo-db-data/db.js';
